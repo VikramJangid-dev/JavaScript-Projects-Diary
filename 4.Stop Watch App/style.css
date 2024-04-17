@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.watch__container {
+    width: 280px;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 0px 2px #222;
+}
+
+.opertion__btn__container {
+    margin-top: 10px;
+    background-color: #555;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.startColor {
+    background-color: rgb(28, 151, 28);
+    color: #fff;
+}
+
+.stopColor {
+    color: #fff;
+    background-color: rgb(165, 36, 36);
+}
+
+.timeStampColor {
+    color: #fff;
+    background-color: rgb(61, 60, 156);
+}
+
+button {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all ease 0.2s;
+    margin: 4px;
+}
+
+button:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    font-size: 10px;
+    color: rgb(180, 66, 66);
+    display: none;
+}
